@@ -1209,6 +1209,26 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 
+/* ===== Media CSS ===== */
+
+.ud-brands .ud-media-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -40px;
+}
+
+.ud-brands .ud-media-logo .ud-single-logo {
+  margin: auto;
+  max-width: 300px;
+}
+
 /* ===== Team CSS ===== */
 .ud-team {
   padding-top: 120px;
