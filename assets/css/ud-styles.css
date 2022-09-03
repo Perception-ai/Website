@@ -789,6 +789,12 @@ p {
   padding: 120px 0;
 }
 
+.ud-about-image {
+  width: 600px;
+  text-align: center;
+  justify-content: center;
+}
+
 @media (max-width: 767px) {
   .ud-about {
     padding: 80px 0;
@@ -1128,6 +1134,12 @@ p {
   font-size: 16px;
   line-height: 30px;
   color: #637381;
+  text-align: center;
+}
+.ud-single-testimonial .ud-testimonial-content img {
+  max-height: 250px;
+  min-height: 200px;
+  text-align: center;
 }
 
 .ud-single-testimonial .ud-testimonial-info {
