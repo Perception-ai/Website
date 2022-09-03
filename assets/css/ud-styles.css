@@ -803,6 +803,11 @@ p {
   .ud-about {
     padding: 80px 0;
   }
+  .ud-about-image {
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+  }
 }
 
 .ud-about-wrapper {
@@ -1245,6 +1250,13 @@ p {
   max-width: 300px;
 }
 
+@media (max-width: 767px) {
+  .ud-brands .ud-media-logo .ud-single-logo {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+}
+
 /* ===== Team CSS ===== */
 .ud-team {
   padding-top: 120px;
@@ -1449,6 +1461,10 @@ p {
 @media (max-width: 767px) {
   .ud-contact-form-wrapper {
     padding: 40px 30px;
+  }
+  .ud-contact-form-wrapper iframe {
+    width: 250px;
+    overflow-x: hidden;
   }
 }
 

@@ -56,7 +56,14 @@
   });
 
   // ===== wow js
-  new WOW().init();
+  new WOW({
+    boxClass:     'wow',      // default
+    animateClass: 'animated', // default
+    offset:       0,          // default
+    mobile:       false,       // default
+    live:         true        // default
+    }
+    ).init();
 
   // ====== scroll top js
   function scrollTo(element, to = 0, duration = 500) {
