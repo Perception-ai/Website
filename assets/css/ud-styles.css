@@ -1180,6 +1180,7 @@ p {
 
 .ud-brands .ud-title {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .ud-brands .ud-title h6 {
@@ -1253,7 +1254,8 @@ p {
 @media (max-width: 767px) {
   .ud-brands .ud-media-logo .ud-single-logo {
     width: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    text-align: center;
   }
 }
 
